@@ -1,4 +1,4 @@
-class Chatty_Student < Student 
+class ChattyStudent < Student 
   
   def hello
     super
@@ -6,16 +6,8 @@ class Chatty_Student < Student
   end
   
   def raise_hand
-    super
-    super 
-    super
-    super
-    super
-    super
-    super
-    super
-    super
-    super
+    10 * super
+    
   end
   
 end
